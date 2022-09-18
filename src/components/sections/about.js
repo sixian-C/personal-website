@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'SQL',
+    'R Language',
+    'Machine Learning',
+    'Fast-API',
+    'Pyspark',
+    'Tableau',
+    'ReactJS',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Sixian and I enjoy writing code and solving problems. My interest in
+              data science started back in 2017 when I decided to participate in a Kaggle
+              competition for predicting house prices in California — turns out that the Kaggle
+              project taught me a lot about Python &amp; machine learning! Love it!
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              In 2020, I graduated with a bachelor's degree in management information system from{' '}
+              <a href="http://english.tku.edu.tw/" target="_blank" rel="noreferrer">
+                Tamkang University
+              </a>
+              . Then, I worked as a full-time data analyst at{' '}
+              <a
+                href="https://www.nbpitech.com/official-page-pc/index.html?v=1"
+                target="_blank"
+                rel="noreferrer">
+                Ningbo Public Information Company
+              </a>
+              &nbsp;in China, primarily focusing on A/B testing, building dashboards, and data
+              analysis.
             </p>
-
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Fast-forward to today, and I’ve had the privilege of studying my master degree at{' '}
+              <a href="https://www.columbia.edu/" target="_blank" rel="noreferrer">
+                Columbia Univeristy
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +184,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/sixianchen.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
